@@ -23,7 +23,7 @@ header{
     max-width: 800px;
     max-height: 410px;
     text-align: center;
-    margin: 5px auto 10px auto;
+    margin: 0px auto 10px auto;
     
 
 }
@@ -116,6 +116,7 @@ a:hover{
     width: 190px;
     border-radius: 250px;
     display: inline-flex;
+    padding: 5px;
 
 }
 
