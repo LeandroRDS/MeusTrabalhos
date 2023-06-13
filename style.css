@@ -6,27 +6,35 @@ body{
     background-image: linear-gradient(45deg,#00d6f7 60%,#0007E0);
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
+    min-width: 300px;
 
+}
+
+*{
+    margin: 0px;
+    padding:0px;
 }
 
 header{
     background-image: linear-gradient(45deg,white, #98f1ff);
     border-radius: 10px;
     box-shadow: 5px 5px 15px #0007e0b0;
-    padding: 15px;
-    width: 1000px;
-    height: 210px;
-    margin: auto;
+    min-width: 320px;
+    max-width: 800px;
+    max-height: 410px;
+    text-align: center;
+    margin: 0px auto 10px auto;
+    
 
 }
 main{
     background-image: linear-gradient(45deg,white, #98f1ff);
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(2, 9, 226, 0.69);
-    padding: 15px;
-    width: 1000px;
-    margin: auto;
+    margin: 0px auto 10px auto;
+    min-width: 320px;
+    max-width:800px;
+   
 }
 footer{
     background-color: #000000;
@@ -39,7 +47,7 @@ footer>p{
     color: white;
     font:1em;
     text-align: center;
-    margin: 0px;
+    
 
 }
 
@@ -49,31 +57,30 @@ h1{
     font-size: 2.8em;
 }
 h1#principal{
-    margin-left: 1.5em;
+    
     text-shadow: 4px 2px 4px #6d0781af;
+    display:inline-table;
+    
 }
 
 h2{
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 4px 2px 4px #6e0883ad; ;
     color: #bc0be0;
-    margin-left: 5%;
     font-size: 1.5em;
 }
 p{
-    font:   'Inter' sans-serif sans-serif;
+    font:   'Inter' sans-serif ;
     font-size: 1.5em ;
     font-weight: 500;
     color: #000000;
     text-align: justify;
-    margin-right: 20%;
-    margin-left: 5%;
+
     text-indent: 1.5em;
 
 }
 
 .principaisLinks{
-    margin-left: 7em;
     font-size: 2.3em;
     font-style: italic;
     color: red ;
@@ -103,13 +110,12 @@ a:hover{
     text-decoration: underline;
 }
 
-img{
+
+ img{
     width: 190px;
     border-radius: 250px;
-    margin: 10px;
-    
-    
-    
+    display: inline-flex;
+
 }
 
 
